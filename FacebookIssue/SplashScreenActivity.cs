@@ -1,12 +1,8 @@
 ﻿using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Preferences;
-using Android.Support.V7.App;
-using Android.Views;
 using Android.Widget;
 using Org.Json;
-using System;
 using System.Collections.Generic;
 using Xamarin.Facebook;
 using Xamarin.Facebook.Login;
