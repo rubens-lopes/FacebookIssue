@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.0" package="saudavell.android" android:installLocation="auto" android:versionCode="1">
+	<uses-sdk android:minSdkVersion="16" />
+	<application android:label="@string/ApplicationName" android:icon="@drawable/Icon">
+		<activity android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:label="@string/ApplicationName" />
+		<provider android:authorities="com.facebook.app.FacebookContentProvider927835417297614" android:name="com.facebook.FacebookContentProvider" android:exported="true" />
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>
